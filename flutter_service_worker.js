@@ -3,21 +3,21 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d9bebbcc01b106b8df8ba4e93f67d60d",
+  "assets/AssetManifest.json": "5c75cc3ab7803d7b0ef1db296059c0d0",
 "assets/assets/audios/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/images/app_launcher_icon.jpeg": "7a5b2236a770fcb8ac7cd50daa074710",
 "assets/assets/images/download.jpeg": "7a5b2236a770fcb8ac7cd50daa074710",
 "assets/assets/images/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"assets/assets/images/Graphic.svg": "a5cec9f09deaacf378cc89e4eca11c67",
-"assets/assets/images/sacred_sound_logo.svg": "569ea46350255847d88cf0a096530093",
+"assets/assets/images/Frame_6.png": "5e2a860f20a6b8da39a7de838a03afce",
+"assets/assets/images/newsacredsoundlogo.png": "99b6427d21272451d71d51779f8ebbd0",
 "assets/assets/lottie_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/pdfs/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/rive_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/videos/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "62c00775a1b77083db382b2bdbc94ca4",
+"assets/NOTICES": "9093335f931e8409f02e95a601893a16",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
@@ -33,9 +33,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "1f757291ea7a2ad215765c7af3ef9f49",
-"/": "1f757291ea7a2ad215765c7af3ef9f49",
-"main.dart.js": "181e37292493da2ad5a04003a176434d",
+"index.html": "f00f564e467ebc101114db9856f98828",
+"/": "f00f564e467ebc101114db9856f98828",
+"main.dart.js": "d11d838e21a2d529118d3ef1ccdf8951",
 "manifest.json": "536d812d8f7317a2b531e39f18d02b93",
 "version.json": "82d8c4e9d8ebd3e6e1a374e412e6e065"
 };

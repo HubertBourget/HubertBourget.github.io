@@ -11,15 +11,14 @@
     Fore more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <script>
-    !function () {
-      var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
-        analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"]; analytics.factory = function (e) { return function () { var t = Array.prototype.slice.call(arguments); t.unshift(e); analytics.push(t); return analytics } }; for (var e = 0; e < analytics.methods.length; e++) { var key = analytics.methods[e]; analytics[key] = analytics.factory(key) } analytics.load = function (key, e) { var t = document.createElement("script"); t.type = "text/javascript"; t.async = !0; t.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n); analytics._loadOptions = e }; analytics._writeKey = "FNZ8OdE059tlDuTRCAMR8EwGL8Bqi3go";; analytics.SNIPPET_VERSION = "4.15.3";
-        analytics.load("FNZ8OdE059tlDuTRCAMR8EwGL8Bqi3go");
-        analytics.page();
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('flutter-first-frame', function () {
+          navigator.serviceWorker.register('flutter_service_worker.js?v=420800825');
+        });
       }
-    }();
-  </script>
+
+    </script>
   <base href="/">
 
   <meta charset="UTF-8">
@@ -30,19 +29,26 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Aleph">
 
+  
+
+  
+
   <!-- Favicon -->
+  <link rel="icon" href="favicon.png" sizes="any"/>
   <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png">
+  
 
   <!-- Open Graph & SEO tags -->
-  <meta property="og:title" content="Aleph" />
+  <meta property="og:title" content="Sacred Sound [prototype]" />
   <meta property="og:description" content="Built with FlutterFlow." />
   <meta property="og:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" /> 
-  <meta name="twitter:title" content="Aleph" />
+  <meta name="twitter:title" content="Sacred Sound [prototype]" />
   <meta name="twitter:description" content="Built with FlutterFlow." />
   <meta name="twitter:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <title> Aleph </title>
+  <title> Sacred Sound [prototype] </title>
   <meta name="description" content="Built with FlutterFlow." />
     
 
@@ -55,7 +61,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1080078887');
+        navigator.serviceWorker.register('flutter_service_worker.js');
       });
     }
     
