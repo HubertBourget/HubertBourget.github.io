@@ -3,12 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "5c75cc3ab7803d7b0ef1db296059c0d0",
+  "assets/AssetManifest.json": "f66ca963d698f5e1d857bbbaf6541dfe",
 "assets/assets/audios/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"assets/assets/images/app_launcher_icon.jpeg": "7a5b2236a770fcb8ac7cd50daa074710",
-"assets/assets/images/download.jpeg": "7a5b2236a770fcb8ac7cd50daa074710",
-"assets/assets/images/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"assets/assets/images/app_launcher_icon.png": "f759a95b004d2832b6df234517d021ac",
+"assets/assets/images/favicon.png": "f759a95b004d2832b6df234517d021ac",
 "assets/assets/images/Frame_6.png": "5e2a860f20a6b8da39a7de838a03afce",
 "assets/assets/images/newsacredsoundlogo.png": "99b6427d21272451d71d51779f8ebbd0",
 "assets/assets/lottie_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -33,9 +32,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "c612988cc97f06b4b5ed4956889c5d22",
-"/": "c612988cc97f06b4b5ed4956889c5d22",
-"main.dart.js": "6f1029a9ac87063c0a71691a92ca3cb5",
+"index.html": "124077c0c3b484a32af65167ab440017",
+"/": "124077c0c3b484a32af65167ab440017",
+"main.dart.js": "24cb4fefe9a3721dcc93107c2f591ff8",
 "manifest.json": "536d812d8f7317a2b531e39f18d02b93",
 "version.json": "82d8c4e9d8ebd3e6e1a374e412e6e065"
 };
