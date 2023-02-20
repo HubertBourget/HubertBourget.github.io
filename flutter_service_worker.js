@@ -3,10 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2ea5989b35a520e5aadae67037cb8214",
+  "assets/AssetManifest.json": "d451ab6abf142233122fb583e32e09d9",
 "assets/assets/audios/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/images/app_launcher_icon.png": "f759a95b004d2832b6df234517d021ac",
+"assets/assets/images/audio-book.gif": "c719ad628df470700d7d0a1d58f84356",
 "assets/assets/images/favicon.png": "f759a95b004d2832b6df234517d021ac",
 "assets/assets/images/Frame_6.png": "5e2a860f20a6b8da39a7de838a03afce",
 "assets/assets/images/newsacredsoundlogo.png": "99b6427d21272451d71d51779f8ebbd0",
@@ -16,7 +17,7 @@ const RESOURCES = {
 "assets/assets/videos/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "edf72157c640961b70b71c84eeb1a8f1",
+"assets/NOTICES": "4eae48432c5d8767d59af4e4a689620a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
@@ -31,9 +32,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "408243a937a9b49a965af87f8dacf2ab",
-"/": "408243a937a9b49a965af87f8dacf2ab",
-"main.dart.js": "7bb36865f3e2daa3c0cb664916a51f3d",
+"index.html": "b3c200ecbbc98419845665416d71d212",
+"/": "b3c200ecbbc98419845665416d71d212",
+"main.dart.js": "9aaf7a0312fff0d0e271402f8779dcfd",
 "manifest.json": "11ce5c50bd8c47ebf60e70151cc6aedf",
 "version.json": "fa8cd36ceb59f7d95dbd6588f963682d"
 };
